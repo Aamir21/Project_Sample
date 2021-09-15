@@ -1,0 +1,412 @@
+
+**{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: content-box;
+    
+}
+
+.seg1{
+    height: 120px;
+    background-color: ghostwhite;
+    
+    
+}
+
+
+.seg1_2{
+    height: 120px;
+    background-color: ghostwhite;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+.seg1_2 i{
+    font-size: 25px;
+    color: lightblue;
+    margin-left: 3%;
+    margin-top: 5%;
+}
+
+.seg2{
+    height: 720px;
+    background-color: ghostwhite;
+    background-image: url("table.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.seg2 h1{
+    font-size: 68px;
+    font-family: League Spartan;
+    background-attachment:fixed;
+    background: linear-gradient(90deg, black, gold) no-repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 10%;
+    
+    
+}
+
+.seg2 button{
+    width: 180px;
+    height: 45px;
+    border: solid thin rgb(228, 37, 37);
+   
+    background: linear-gradient(90deg, rgb(228, 37, 37), rgb(238, 45, 42));
+    font-family: Raleway;
+    font-weight: bold;
+    box-shadow: 0px, 0px 5px gray;
+    
+}
+
+
+
+.seg3{
+    height: 550px;
+    background: ghostwhite;
+    
+}
+
+.seg3 h2{
+    font-family: Poppins;
+    margin-top: 3%;
+   
+}
+
+.seg3 p{
+    font-family: Poppins;
+    color: gray;
+}
+
+
+
+
+.carousel {
+    background: #EEE;
+}
+  
+  .carousel-cell {
+    width: 32.8%;
+    height: 300px;
+    margin-right: 10px;
+    background: #8C8;
+    
+    border-radius: 5px;
+    box-shadow: 0px 0px 6px gray;
+    background-size: cover;
+    /*counter-increment: carousel-cell;*/
+    
+}
+
+.carousel-cell a button{
+    
+    width: 145px;
+    height: 42px;
+    border: solid thin gold;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 60px;
+    right: 20px;
+    font-family: Urbanist;
+    background:linear-gradient(90deg, gold, orange);
+    
+    box-shadow: 0px 0px 3px gray;
+    
+    
+}
+  
+.carousel-cell h2{
+    position: absolute;
+    z-index: 5;
+    width: 100%;
+    height: 48px;
+    font-size: 20px;
+    /*
+    background: linear-gradient(90deg, rgb(39, 39, 61), rgb(64, 64, 92));
+    */
+    bottom: -10px;
+    padding-left: 10px;
+    font-family: Poppins;
+    color:rgb(39, 39, 61) ;
+
+    background: rgba(246, 245, 241, 0.5);
+	-webkit-backdrop-filter: blur(10px);
+	backdrop-filter: blur(10px);
+     
+}
+  
+.carousel-cell h2 label{
+     
+      width: auto;
+      height: 50px;
+      background: transparent;
+      font-family: Raleway;
+      font-size: 15px;
+      font-weight: bold;
+      padding-left: 20px;
+      
+}
+  
+  
+.carousel-cell.is-selected {
+    background:rgb(228, 37, 37);
+}
+  
+  /* cell number */
+.carousel-cell:before {
+    display: block;
+    text-align: center;
+    /*content: counter(carousel-cell);*/
+    line-height: 200px;
+    font-size: 80px;
+    color: white;
+}
+
+
+
+.carousel-cell:nth-child(1){
+    background-image: url(thumb1.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel-cell:nth-child(2){
+    background-image: url(thumb2.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel-cell:nth-child(3){
+    background-image: url(thumb3.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel-cell:nth-child(4){
+    background-image: url(thumb4.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel-cell:nth-child(5){
+    background-image: url(thumb5.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.carousel-cell:nth-child(6){
+    background-image: url(thumb6.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.seg4{
+    height: 620px;
+    background-color: ghostwhite;
+    display: block;
+}
+
+.seg4 h2{
+    font-family: Poppins;
+    
+}
+
+.seg4 p{
+    font-family: Poppins;
+    color: gray;
+    
+}
+
+.seg4 a button{
+    width: 145px;
+    height: 42px;
+    border: solid thin rgb(228, 37, 37);
+    border-radius: 3px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-family: Urbanist;
+    background-color: rgb(228, 37, 37);
+    color: white;
+    box-shadow: 0px 0px 3px gray;
+}
+
+
+
+
+
+.blocks{
+    height: 250px;
+    background: whitesmoke;
+    
+    box-shadow: 0px 0px 4px gainsboro;
+    border: solid thin gray;
+    border-radius: 5px;
+    margin-left: 6%;
+    float: left;
+}
+
+
+.blocks p{
+    color: aliceblue;
+}
+
+
+
+
+
+.blocks i{
+    
+    font-size: 30px;
+    
+}
+
+
+#bottom_text{
+    font-family: Fredoka one;
+    text-align: center;
+    margin-top: 28%;
+    color:gray;
+}
+
+#bottom_para{
+    text-align: center;
+}
+
+
+.seg5{
+    height: 300px;
+    background: rgb(228, 37, 37);
+}
+
+
+#block1{
+    background-image: url(adobe5.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#block2{
+    background-image: url(programming.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#block3{
+    background-image: url(adobe6.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+.seg5 h1{
+        text-align: center;
+        font-family: Fredoka one;
+        margin-top: 3%;
+        color: white;
+        
+        
+}
+
+
+
+ /*MOBILE DEVICE DISPLAY*/
+
+
+@media only screen and (max-width: 600px){
+    
+    
+    .seg1{
+        height: 60px;
+    }
+    
+    .seg1_2{
+        height: 60px;
+    }
+    
+    .seg1_2 i{
+        
+        
+        margin-left: 25%;
+        text-align: center;
+    }
+    
+    
+    
+    .seg2{
+        height: 400px;
+    }
+    
+    .seg2 h1{
+        font-size: 23px;
+        margin-top: 15%;
+    }
+    
+    
+    .carousel-cell {
+        width: 100%;
+        height: 270px;
+        margin-right: 10px;
+        background: #8C8;
+    
+        border-radius: 5px;
+        box-shadow: 0px 0px 6px gray;
+        background-size: cover;
+        /*counter-increment: carousel-cell;*/
+    
+    }
+    
+    
+    .seg4{
+        height: 1000px;
+        
+        
+    }
+    
+    
+    .blocks{
+        margin-left: 0%;
+        margin-top: 2%;
+        height: 200px;
+        
+    }
+    
+    
+    .seg5 h1{
+        text-align: center;
+        font-family: Fredoka one;
+        margin-top: 3%;
+        color: white;
+        
+        
+    }
+    
+    #bottom_text{
+        font-family: Fredoka one;
+        text-align: center;
+        margin-top: 28%;
+        color:gray;
+        font-size:28px;
+        
+    }
+    
+    
+    
+    
+    
+
+    
+}
+
+
+
+
+
+
+
+
